@@ -1,0 +1,18 @@
+@startuml
+'논리적 설계
+class 쥐{
+    이름
+    나이
+    꼬리개수
+    울다()
+
+}
+'물리적 설계
+class mouse{
+   + String name
+   + int age
+   + int countOfTail
+   + void sing()
+
+}
+@enduml

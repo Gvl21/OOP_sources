@@ -1,0 +1,9 @@
+@startuml
+'UML 상 static 멤버의 겨우 밑줄 표기
+class abstraction.static_.Mouse {
+~ String name
+~ int age
+~ {static} int countOfTail
+~ void sing()
+}
+@enduml

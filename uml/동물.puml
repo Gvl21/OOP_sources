@@ -1,0 +1,26 @@
+@startuml
+class inheritance.펭귄 {
+}
+class inheritance.박쥐 {
+}
+class inheritance.고래 {
+}
+class inheritance.참새 {
+}
+class inheritance.동물 {
+~ String kind
+~ void showMe()
+}
+class inheritance.조류 {
+}
+class inheritance.포유류 {
+}
+
+
+inheritance.조류 <|-- inheritance.펭귄
+inheritance.포유류 <|-- inheritance.박쥐
+inheritance.포유류 <|-- inheritance.고래
+inheritance.조류 <|-- inheritance.참새
+inheritance.동물 <|-- inheritance.조류
+inheritance.동물 <|-- inheritance.포유류
+@enduml

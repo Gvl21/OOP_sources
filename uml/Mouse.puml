@@ -1,0 +1,9 @@
+@startuml
+'물리적 설계, 코드에서 파싱
+class abstraction.Mouse {
+~ String name
+~ int age
+~ int countOfTail
+~ void sing()
+}
+@enduml
