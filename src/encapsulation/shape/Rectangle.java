@@ -1,9 +1,10 @@
 package encapsulation.shape;
 
 
+import encapsulation.shape.Shape;
 
-public class Rectangle extends Shape{
-    private void rectangle(){
+public class Rectangle extends Shape {
+    private void rectangle() {
         System.out.println("사각형");
     }
 
@@ -12,7 +13,3 @@ public class Rectangle extends Shape{
         rectangle();
     }
 }
-
-
-
-

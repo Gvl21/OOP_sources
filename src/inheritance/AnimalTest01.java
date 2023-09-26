@@ -8,7 +8,7 @@ public class AnimalTest01{
         포유류 mammal = new 포유류();
         고래 whale = new 고래();
         박쥐 bat = new 박쥐();
-        참새 spparow = new 참새();
+        참새 spparrow = new 참새();
         펭귄 penguin = new 펭귄();
 
         animal.showMe();
@@ -16,7 +16,7 @@ public class AnimalTest01{
         mammal.showMe();
         whale.showMe();
         bat.showMe();
-        spparow.showMe();
+        spparrow.showMe();
         penguin.showMe();
 
     }

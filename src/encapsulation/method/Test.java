@@ -9,11 +9,11 @@ public class Test {
 //        process.process();
 //        process.release();
 
-        // 사용자가 순서를 잘못 실행할 경우를 원천적으로 막음
+        // 사용자가 순서를 잘못 실행할 경우
 //        process.release();
 //        process.init();
 
-        // 단일화시켜 순서를 통일
         process.work();
+
     }
 }

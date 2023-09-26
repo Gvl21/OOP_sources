@@ -1,8 +1,5 @@
 package abstraction;
 
-
-
-
         // 붕어빵틀(클래스) 붕어빵(객체)
         // 붕어빵틀 붕어빵 = new 붕어빵틀(); ----> ?????
         // 새로운 붕어빵틀을 만들었는데 그 붕어빵틀이 붕어빵이라고? (비유를 조심할 것)
@@ -28,7 +25,7 @@ public class MouseTest {
 
         mickey.name = "미키마우스";
         mickey.age = 85;
-        mickey.countOfTail = 0;
+        mickey.countOfTail = 1;
         mickey.sing();
 
         mickey = null;
